@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<title>HangMan</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+        <div class="container">
+                    <audio id="start" src="audio/start.opus" preload='auto'></audio>
+
+            <div class="game-info">
+                <div class="game-name">HangMane</div>
+                <div class="categor">
+                    Word from : <span></span>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="hangmane-draw">
+                    <div class="the-draw">
+                        <div class="the-stand"></div>
+                        <div class="the-hang"></div>
+                        <div class="the-rope"></div>
+                        <div class="the-man">
+                            <div class="head"></div>
+                            <div class="body"></div>
+                            <div class="hands"></div>
+                            <div class="legs"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="letter"></div>
+                
+            </div>
+            <hr>
+            <div class="letter-guess"></div>
+        </div>
+        <audio id="success" src="audio/success.opus" preload='auto'></audio>
+        <audio id="fill" src="audio/fill.opus" preload='auto'></audio>
+		<script src="js/main.js"></script>
+	</body>
+</html>
